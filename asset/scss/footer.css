@@ -1,0 +1,82 @@
+body {
+  background-color: #d1d8e0;
+}
+body footer {
+  background-color: #15191b;
+  padding: 30px;
+  font-size: 1.2rem;
+  position: absolute;
+  bottom: 0;
+  width: 100.8%;
+}
+body footer img {
+  width: 20px;
+  margin: 1px;
+}
+body footer a {
+  text-transform: none;
+  text-decoration: none;
+  margin-left: 7px;
+}
+body footer .orange {
+  color: #fea918;
+}
+body div.mentionsLegales {
+  margin-bottom: 10%;
+}
+body div.mentionsLegales div {
+  margin-left: 20%;
+  margin-right: 20%;
+  font-size: larger;
+}
+body div.mentionsLegales h1 {
+  text-align: center;
+  font-size: 60px;
+}
+body div.mentionsLegales h2 {
+  margin-top: 55px;
+  text-transform: uppercase;
+}
+body div.mentionsLegales .attention {
+  padding: 90px 0px;
+  font-style: italic;
+  font-weight: bold;
+}
+body div.mentionsLegales h1,
+body div.mentionsLegales h2,
+body div.mentionsLegales h3,
+body div.mentionsLegales h4 {
+  color: #0074d9;
+}
+body div.CGU {
+  margin-bottom: 5%;
+}
+body div.CGU div {
+  margin-left: 14%;
+  margin-right: 14%;
+  font-size: larger;
+}
+body div.CGU h1 {
+  text-align: center;
+  font-size: 60px;
+}
+body div.CGU h2 {
+  margin-top: 55px;
+  text-transform: uppercase;
+}
+body div.CGU h1,
+body div.CGU h2,
+body div.CGU h3,
+body div.CGU h4 {
+  color: #0074d9;
+}
+body div.CGU .attention {
+  padding: 90px 0px;
+  font-style: italic;
+  font-weight: bold;
+}
+body div.CGU .bold {
+  font-weight: bold;
+}
+
+/*# sourceMappingURL=footer.css.map */

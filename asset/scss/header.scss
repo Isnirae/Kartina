@@ -1,0 +1,41 @@
+$primary  : #0074d9;
+$secondary: #6c757d;
+$success  : #28a745;
+$danger   : #ff4136;
+$warning  : #ffc107;
+$info     : #17A2B4;
+$light    : #f8f9fa;
+$dark     : #343a40;
+$orange   : #fea918;
+
+a {
+    text-decoration: none;
+}
+
+header {
+    h1 {
+        color: $orange;
+    }
+
+    .navbar-nav {
+        margin-left: auto;
+
+        .nav-item {
+            border-bottom: 1px solid transparent;
+
+            &:hover,
+            &.active {
+                border-color: $orange;
+            }
+        }
+    }
+    
+    
+
+
+}
+
+#navbar2{
+    background-color: $orange;
+}
+

@@ -1,0 +1,99 @@
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+.back-orange {
+  background-color: #fea918;
+}
+
+.text-orange {
+  color: #fea918;
+  font-weight: bold;
+}
+
+.div_biographie {
+  height: 400px;
+  overflow-y: hidden;
+}
+
+.center {
+  align-items: center;
+}
+
+.themes_left {
+  margin-left: 14%;
+}
+
+.vertical_bottom {
+  vertical-align: bottom;
+}
+
+a {
+  text-decoration: none;
+}
+
+.carousel-item img {
+  width: 33.33%;
+  height: 45vh;
+  object-fit: cover;
+}
+
+.container_index img {
+  width: auto;
+  height: 30vh;
+  object-fit: cover;
+}
+
+.aligner_img {
+  text-align: center;
+  display: flex;
+  margin: auto;
+}
+
+.container_panier .img-oeuvre {
+  width: 20vh;
+  height: 15vh;
+  object-fit: cover;
+}
+
+/* cacher le boutton radio tunnel d'achat*/
+[type=radio] {
+  position: absolute;
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+[type=radio] + img {
+  cursor: pointer;
+}
+
+/* Si checked, entourer l'image */
+[type=radio]:checked + img + p {
+  color: #fea918;
+  font-weight: bold;
+}
+
+#finition_grand_format, #finition_petit_format, #cadre_grand_format, #cadre_petit_format {
+  display: none;
+}
+
+.stripe-button-el {
+  float: right;
+  background-color: #ffc107 !important;
+  color: darkslategrey !important;
+  background-image: none !important;
+}
+
+.stripe-button-el span {
+  background-color: #ffc107 !important;
+  color: #343a40 !important;
+  background-image: none !important;
+  font-weight: normal !important;
+  font-style: none !important;
+  font-size: 18px !important;
+  margin: 4px;
+}
+
+/*# sourceMappingURL=html.css.map */

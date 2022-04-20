@@ -1,0 +1,110 @@
+$primary  : #0074d9;
+$secondary: #6c757d;
+$success  : #28a745;
+$danger   : #ff4136;
+$warning  : #ffc107;
+$info     : #17A2B4;
+$light    : #f8f9fa;
+$dark     : #343a40;
+$orange   : #fea918;
+
+
+html {
+    position  : relative;
+    min-height: 100%;
+}
+
+
+    .back-orange {
+        background-color: $orange;
+    }
+
+    .text-orange {
+        color      : $orange;
+        font-weight: bold;
+    }
+
+    .div_biographie {
+        height    : 400px;
+        overflow-y: hidden;
+    }
+
+    .center {
+        align-items: center;
+    }
+
+    .themes_left {
+        margin-left: 14%;
+    }
+
+    .vertical_bottom {
+        vertical-align: bottom;
+    }
+
+    a {
+        text-decoration: none;
+    }
+
+    .carousel-item img {
+        width     : 33.33%;
+        height    : 45vh;
+        object-fit: cover;
+    }
+
+    .container_index img {
+        width     : auto;
+        height    : 30vh;
+        object-fit: cover;
+    }
+
+    .aligner_img {
+        text-align: center;
+        display   : flex;
+        margin    : auto;
+    }
+
+    .container_panier .img-oeuvre{
+        width : 20vh;
+        height : 15vh;
+        object-fit: cover;
+    }
+
+    /* cacher le boutton radio tunnel d'achat*/
+    [type=radio] {
+        position: absolute;
+        opacity : 0;
+        width   : 0;
+        height  : 0;
+    }
+
+    [type=radio]+img {
+        cursor: pointer;
+    }
+
+    /* Si checked, entourer l'image */
+    [type=radio]:checked+img+p {
+        color: $orange;
+        font-weight: bold;
+    }
+
+    #finition_grand_format, #finition_petit_format, #cadre_grand_format, #cadre_petit_format{
+        display : none;
+      }
+
+
+.stripe-button-el  {
+float:right;
+background-color: #ffc107 !important;
+color: darkslategrey !important;
+background-image:none !important;
+}
+
+.stripe-button-el span {
+    background-color: #ffc107 !important;
+    color: $dark !important;
+    background-image:none !important;
+    font-weight: normal !important;
+    font-style: none !important;
+    font-size: 18px !important;
+    margin: 4px;
+    }

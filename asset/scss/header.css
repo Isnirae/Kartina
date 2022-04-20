@@ -1,0 +1,22 @@
+a {
+  text-decoration: none;
+}
+
+header h1 {
+  color: #fea918;
+}
+header .navbar-nav {
+  margin-left: auto;
+}
+header .navbar-nav .nav-item {
+  border-bottom: 1px solid transparent;
+}
+header .navbar-nav .nav-item:hover, header .navbar-nav .nav-item.active {
+  border-color: #fea918;
+}
+
+#navbar2 {
+  background-color: #fea918;
+}
+
+/*# sourceMappingURL=header.css.map */
